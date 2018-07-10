@@ -5,10 +5,11 @@
 }
 
 .button{
-  background:red;
+  background: yellow;
   padding:1em 2em;
   color:#fff;
   border:0;
+  color : black;
 }
 
 .button:hover{
@@ -54,4 +55,17 @@
   padding:10px;
   color:#fff;
   text-align: center;
+}
+
+.closeBtn{
+  color:#ccc;
+  float: right;
+  font-size:30px;
+  color:#fff;
+}
+
+.closeBtn:hover,.closeBtn:focus{
+  color:#000;
+  text-decoration: none;
+  cursor:pointer;
 }
